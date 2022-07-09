@@ -1,0 +1,15 @@
+@import '../index.scss';
+
+.Footer{
+    display: flex;
+    @include flex_center;
+    align-items: center;
+    width: 100%;
+    height: size(40);
+    position: absolute;
+    background-color: $hf_bgcolor;
+    color: $hf_color;
+    font-size: size(16);
+    font-weight: 500;
+    bottom: 0;
+}

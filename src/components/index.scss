@@ -1,0 +1,23 @@
+@function size($size : 10){
+    @return calc($size / 16 * 1rem)
+};
+
+$hf_bgcolor : rgb(56, 56, 56);
+$hf_color : rgb(241, 241, 241);
+$theme_color : rgb(65, 200, 244);
+
+@mixin flex_center {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@mixin center{
+    margin: 50% 50%;
+    transform: translate(-50,-50);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
